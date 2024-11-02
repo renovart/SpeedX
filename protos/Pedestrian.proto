@@ -1,0 +1,19 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/released/projects/humans/pedestrian/protos/Pedestrian.proto"
+
+Pedestrian {
+        SFVec3f    translation           0 0 1.27
+        SFRotation rotation              0 0 1 0
+        SFString   name                  "pedestrian"
+        SFString   controller            "pedestrian"
+        MFString   controllerArgs        []
+        SFColor    shirtColor            0.25 0.55 0.20
+        SFColor    pantsColor            0.24 0.25 0.5
+        SFColor    shoesColor            0.28 0.15 0.06
+        SFColor    skinColor             1.0 0.75 0.7
+        SFBool     enableBoundingObject  FALSE
+        MFNode     bodySlot              []
+        MFNode     leftHandSlot          []
+        MFNode     rightHandSlot         []
+}

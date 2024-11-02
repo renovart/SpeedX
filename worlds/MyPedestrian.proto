@@ -1,0 +1,11 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/released/projects/humans/pedestrian/protos/Pedestrian.proto"
+
+PROTO MyPedestrian [
+]
+{
+  Pedestrian {
+    shirtColor 0.5254901960784314 0.996078431372549 0.9882352941176471
+  }
+}
